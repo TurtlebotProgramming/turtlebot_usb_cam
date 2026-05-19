@@ -1,0 +1,14 @@
+usb_cam_node:
+  ros__parameters:
+    device:      "/dev/video2"
+    frame_id:    "camera"
+    resolution:  "640x480"
+    fps:         30.0
+    auto_whitebalance: true
+    auto_exposure:     true
+    auto_focus:        false
+    horizontal_flip:   false
+    vertical_flip:     false
+    brightness:  -1
+    contrast:    -1
+    saturation:  -1
