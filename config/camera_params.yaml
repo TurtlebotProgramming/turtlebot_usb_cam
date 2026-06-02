@@ -1,6 +1,6 @@
 usb_cam_node:
   ros__parameters:
-    device:      "/dev/video2"
+    device:      "/dev/video3"
     frame_id:    "camera"
     resolution:  "640x480"
     fps:         30.0
